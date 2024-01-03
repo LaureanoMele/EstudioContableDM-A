@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: lightgrey;
+    background-color: rgb(122, 140, 151);
 }
 
 h1 {
@@ -18,7 +18,6 @@ h1 {
 h2 {
     font-size: 20px;
 }
-
 header {
     background-color: #504ea3;
     display: flex;
@@ -44,9 +43,8 @@ header ul {
     gap: 100px
 }
 
-header li a {
+.color-link{
     color: azure;
-    text-decoration: none;
     font-size: 20px;
 }
 
@@ -83,4 +81,7 @@ footer img {
 
 
 }
-main div { border:2px solid rgb(130, 129, 129);}
+main div { border:2px solid azure;}
+.info-util{
+    display: flex;flex-direction: column;  
+}

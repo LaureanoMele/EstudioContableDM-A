@@ -6,16 +6,18 @@
 }
 
 body {
-    background-color: rgb(122, 140, 151);
+    background-color:white;
 }
 
 h1 {
+    background-color:  #9eaeb2;
     display: flex;
     justify-content: center;
     font-size: 30px;
 }
 
 h2 {
+    color: #504ea3;
     font-size: 20px;
 }
 header {
@@ -26,8 +28,8 @@ header {
 }
 
 section {
-    background-color: #504ea3;
-    color: azure;
+    background-color: white;
+    color: black;
 }
 
 header ul {
@@ -66,6 +68,7 @@ footer img {
     width: 50px;
 }
 
+
 .pie {
     display: inline-block;
     vertical-align: middle;
@@ -81,7 +84,5 @@ footer img {
 
 
 }
-main div { border:2px solid azure;}
-.info-util{
-    display: flex;flex-direction: column;  
-}
+
+

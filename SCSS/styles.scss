@@ -19,7 +19,11 @@ h1 {
 
 h2 {
     color: #504ea3;
-    font-size: 20px;
+    font-size: 25px;
+}
+
+.vista-index { 
+    margin: 30px;
 }
 
 header {
@@ -54,7 +58,7 @@ header ul {
 .iframe {
     display: inline-block;
     margin-top: 4px;
-    margin-left: 800px;
+    margin-left: 600px;
 }
 
 
@@ -62,24 +66,14 @@ footer {
     background-color: #3c484b;
     display: flex;
     justify-content: center;
-    margin-top: 30px;
 }
 
 footer img {
     width: 50px;
 }
 
-
-.pie {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.logo-pie {
-    margin-top: 8px;
-}
-
 .texto-pie {
+    margin-top: 10px;
     color: khaki;
     font-size: 20px;
 }

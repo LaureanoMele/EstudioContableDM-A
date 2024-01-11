@@ -1,12 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Rethink+Sans&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital@1&display=swap');
+
 * {
     font-family: 'Rethink Sans', sans-serif;
     font-size: medium;
 }
 
+.cursiva {
+    font-family: 'Zilla Slab', serif;
+    font-size: 30px;
+}
+
 body {
     background-color: white;
+}
+
+.clientes {
+    font-size: 20px;
+    margin-left: 200px;
 }
 
 h1 {
@@ -56,7 +68,8 @@ header ul {
     font-size: 20px;
 }
 
-.iconos{ font-size: 40px ;
+.iconos {
+    font-size: 35px;
 }
 
 

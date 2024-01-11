@@ -15,6 +15,7 @@ h1 {
     justify-content: center;
     font-size: 30px;
     margin-top: 50px;
+    border-radius: 5px;
 }
 
 h2 {
@@ -22,7 +23,7 @@ h2 {
     font-size: 25px;
 }
 
-.vista-index { 
+.vista-index {
     margin: 30px;
 }
 
@@ -55,10 +56,7 @@ header ul {
     font-size: 20px;
 }
 
-.iframe {
-    display: inline-block;
-    margin-top: 4px;
-    margin-left: 600px;
+.iconos{ font-size: 40px ;
 }
 
 
@@ -81,6 +79,31 @@ footer img {
 .cajas {
     margin: 35px 100px 35px 100px
 }
+
+.espacio {
+    margin: 40px 40px;
+}
+
+.fondo-violeta {
+    background-color: #504ea3;
+    color: white;
+    display: inline-block;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+@media (max-width: 984px) {
+    .pie {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 535.5px) {
+    .pie {
+        margin-top: 20px;
+    }
+}
+
 
 @media screen and (max-width:768px) {
     .cajas {

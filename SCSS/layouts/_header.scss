@@ -1,0 +1,21 @@
+@import "../utilities/maps";
+header {
+    background-color: map-get($colores , primario );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .logo {
+        width: 150px;
+    }
+
+    ul {
+        list-style: none;
+
+
+        .color-link {
+            color: azure;
+            font-size: 20px;
+        }
+    }
+}

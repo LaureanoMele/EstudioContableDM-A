@@ -1,22 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Rethink+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rethink+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:ital@1&display=swap");
 * {
   font-family: "Rethink Sans", sans-serif;
   font-size: medium;
-}
-
-.cursiva {
-  font-family: "Zilla Slab", serif;
-  font-size: 30px;
 }
 
 body {
   background-color: white;
 }
 
-.clientes {
-  font-size: 20px;
-  margin-left: 200px;
+section {
+  background-color: white;
+  color: black;
 }
 
 h1 {
@@ -33,41 +30,21 @@ h2 {
   font-size: 25px;
 }
 
-.vista-index {
-  margin: 30px;
-}
-
 header {
   background-color: #504ea3;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
-section {
-  background-color: white;
-  color: black;
+header .logo {
+  width: 150px;
 }
-
 header ul {
   list-style: none;
 }
-
-.logo {
-  width: 150px;
-}
-
-.color-menu {
-  color: white;
-}
-
-.color-link {
+header ul .color-link {
   color: azure;
   font-size: 20px;
-}
-
-.iconos {
-  font-size: 35px;
 }
 
 footer {
@@ -75,47 +52,86 @@ footer {
   display: flex;
   justify-content: center;
 }
-
 footer img {
   width: 50px;
 }
-
-.texto-pie {
-  margin-top: 10px;
+footer .texto-pie {
+  margin-top: 20px;
   color: khaki;
   font-size: 20px;
+}
+footer .pie {
+  margin-top: 10px;
+}
+@media (max-width: 984px) {
+  footer .pie {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 535.5px) {
+  footer .pie {
+    margin-top: 20px;
+  }
+}
+
+.vista-index {
+  margin: 30px;
+}
+
+.cursiva {
+  font-family: "Zilla Slab", serif;
+  font-size: 30px;
+}
+
+.container-quienes-somos .cajas {
+  margin: 35px 100px 35px 100px;
+}
+@media screen and (max-width: 768px) {
+  .container-quienes-somos .cajas {
+    margin: 60px 0px 0px 0px;
+  }
+}
+.container-quienes-somos .clientes {
+  font-size: 20px;
+  margin-left: 200px;
 }
 
 .cajas {
   margin: 35px 100px 35px 100px;
+}
+@media screen and (max-width: 768px) {
+  .cajas {
+    margin: 60px 0px 0px 0px;
+  }
 }
 
 .espacio {
   margin: 40px 40px;
 }
 
-.fondo-violeta {
-  background-color: #504ea3;
-  color: white;
+.iconos {
+  font-size: 35px;
+}
+
+.fondo-titulo, .fondo-titulo-beige, .fondo-titulo-violeta {
   display: inline-block;
   padding: 3px;
   border-radius: 3px;
 }
 
-@media (max-width: 984px) {
-  .pie {
-    margin-top: 10px;
-  }
+.fondo-titulo-violeta {
+  background-color: #504ea3;
+  color: white;
 }
-@media (max-width: 535.5px) {
-  .pie {
-    margin-top: 20px;
-  }
+
+.fondo-titulo-beige {
+  background-color: beige;
+  color: black;
 }
-@media screen and (max-width: 768px) {
-  .cajas {
-    margin: 60px 0px 0px 0px;
-  }
+
+.titulos-servicios {
+  width: 500px;
+  height: 35px;
 }
 
 /*# sourceMappingURL=styles.css.map */

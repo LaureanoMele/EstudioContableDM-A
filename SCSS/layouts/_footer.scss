@@ -1,0 +1,34 @@
+@import "../utilities/maps";
+
+footer {
+    background-color: map-get($colores , terciario);
+    display: flex;
+    justify-content: center;
+
+    img {
+        width: 50px;
+    }
+    
+
+    .texto-pie {
+        margin-top: 20px;
+        color: khaki;
+        font-size: 20px;
+    }
+
+
+    .pie {
+        margin-top: 10px;
+        @media (max-width: 984px) {
+
+            margin-top: 10px;
+
+        }
+
+        @media (max-width: 535.5px) {
+
+            margin-top: 20px;
+
+        }
+    }
+}

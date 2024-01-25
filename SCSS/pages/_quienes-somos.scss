@@ -1,0 +1,16 @@
+.container-quienes-somos {
+
+    .cajas {
+        margin: 35px 100px 35px 100px;
+
+        @media screen and (max-width:768px) {
+
+            margin: 60px 0px 0px 0px
+        }
+    }
+
+    .clientes {
+        font-size: 20px;
+        margin-left: 200px;
+    }
+}

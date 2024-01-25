@@ -1,0 +1,4 @@
+@import "../utilities/mixins";
+.titulos-servicios{
+    @include sizes (500px , 35px );
+}

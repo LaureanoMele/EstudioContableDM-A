@@ -2,11 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:ital@1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rethink+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:ital@1&display=swap");
-* {
-  font-family: "Rethink Sans", sans-serif;
-  font-size: medium;
-}
-
 body {
   background-color: white;
 }
@@ -28,6 +23,12 @@ h1 {
 h2 {
   color: #504ea3;
   font-size: 25px;
+}
+
+.fondo-titulo, .fondo-titulo-beige, .fondo-titulo-violeta {
+  display: inline-block;
+  padding: 3px;
+  border-radius: 3px;
 }
 
 header {
@@ -70,7 +71,7 @@ footer .pie {
 }
 @media (max-width: 535.5px) {
   footer .pie {
-    margin-top: 20px;
+    margin-top: 30px;
   }
 }
 
@@ -78,9 +79,14 @@ footer .pie {
   margin: 30px;
 }
 
+* {
+  font-family: "Rethink Sans", sans-serif;
+  font-size: medium;
+}
+
 .cursiva {
   font-family: "Zilla Slab", serif;
-  font-size: 30px;
+  font-size: 24px;
 }
 
 .container-quienes-somos .cajas {
@@ -93,7 +99,7 @@ footer .pie {
 }
 .container-quienes-somos .clientes {
   font-size: 20px;
-  margin-left: 200px;
+  margin-left: 85px;
 }
 
 .cajas {
@@ -113,12 +119,6 @@ footer .pie {
   font-size: 35px;
 }
 
-.fondo-titulo, .fondo-titulo-beige, .fondo-titulo-violeta {
-  display: inline-block;
-  padding: 3px;
-  border-radius: 3px;
-}
-
 .fondo-titulo-violeta {
   background-color: #504ea3;
   color: white;
@@ -130,7 +130,7 @@ footer .pie {
 }
 
 .titulos-servicios {
-  width: 500px;
+  width: 290px;
   height: 35px;
 }
 

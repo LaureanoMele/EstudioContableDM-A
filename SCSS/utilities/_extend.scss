@@ -1,15 +1,11 @@
-.fondo-titulo{
-    display: inline-block;
-    padding: 3px;
-    border-radius: 3px;
-}
-.fondo-titulo-violeta{
+.fondo-titulo-violeta {
     @extend .fondo-titulo;
     background-color: #504ea3;
-    color: white; 
+    color: white;
 }
-.fondo-titulo-beige{
+
+.fondo-titulo-beige {
     @extend .fondo-titulo;
-    background-color: beige;    
+    background-color: beige;
     color: black;
 }

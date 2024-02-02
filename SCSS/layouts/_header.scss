@@ -1,6 +1,7 @@
 @import "../utilities/maps";
+
 header {
-    background-color: map-get($colores , primario );
+    background-color: map-get($colores , primario);
     display: flex;
     align-items: center;
     justify-content: center;

@@ -3,11 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital@1&display=swap');
 @import "../utilities/maps";
 
-* {
-    font-family: 'Rethink Sans', sans-serif;
-    font-size: medium;
-}
-
 body {
     background-color: white;
 }
@@ -18,7 +13,7 @@ section {
 }
 
 h1 {
-    background-color:  map-get($colores , secundario);
+    background-color: map-get($colores , secundario);
     display: flex;
     justify-content: center;
     font-size: 30px;
@@ -29,4 +24,10 @@ h1 {
 h2 {
     color: map-get($colores , primario);
     font-size: 25px;
+}
+
+.fondo-titulo {
+    display: inline-block;
+    padding: 3px;
+    border-radius: 3px;
 }
